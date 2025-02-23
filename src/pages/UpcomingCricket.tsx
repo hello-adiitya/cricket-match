@@ -15,8 +15,18 @@ const UpcomingCricket = () => {
     const mockMatches: CricketMatch[] = [
       {
         id: "1",
-        team1: { code: "AUS", name: "Australia" },
-        team2: { code: "ENG", name: "England" },
+        team1: {
+          code: "IND", name: "India", flag: "https://flagcdn.com/in.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
+        team2: {
+          code: "SA", name: "South Africa", flag: "https://flagcdn.com/za.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
         date: "2025-02-23",
         time: "14:00",
         venue: "MCG, Melbourne",
@@ -26,8 +36,18 @@ const UpcomingCricket = () => {
       },
       {
         id: "2",
-        team1: { code: "IND", name: "India" },
-        team2: { code: "SA", name: "South Africa" },
+        team1: {
+          code: "IND", name: "India", flag: "https://flagcdn.com/in.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
+        team2: {
+          code: "SA", name: "South Africa", flag: "https://flagcdn.com/za.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
         date: "2025-02-24",
         time: "15:30",
         venue: "Wankhede Stadium, Mumbai",
@@ -37,8 +57,18 @@ const UpcomingCricket = () => {
       },
       {
         id: "3",
-        team1: { code: "PAK", name: "Pakistan" },
-        team2: { code: "NZ", name: "New Zealand" },
+        team1: {
+          code: "PAK", name: "Pakistan", flag: "https://flagcdn.com/pk.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
+        team2: {
+          code: "NZ", name: "New Zealand", flag: "https://flagcdn.com/nz.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
         date: "2025-02-25",
         time: "12:30",
         venue: "Lahore Stadium",
@@ -48,19 +78,39 @@ const UpcomingCricket = () => {
       },
       {
         id: "4",
-        team1: { code: "BAN", name: "Bangladesh" },
-        team2: { code: "WI", name: "West Indies" },
+        team1: {
+          code: "BAN", name: "Bangladesh", flag: "https://flagcdn.com/bd.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
+        team2: {
+          code: "WI", name: "West Indies", flag: "https://flagcdn.com/tt.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
         date: "2025-02-26",
         time: "14:00",
         venue: "Mirpur, Dhaka",
         tournament: "T20 World Cup",
         format: "T20",
-        isPlayingXIAnnounced: false,
+        isPlayingXIAnnounced: true,
       },
       {
         id: "5",
-        team1: { code: "SL", name: "Sri Lanka" },
-        team2: { code: "AFG", name: "Afghanistan" },
+        team1: {
+          code: "SL", name: "Sri Lanka", flag: "https://flagcdn.com/lk.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
+        team2: {
+          code: "AFG", name: "Afghanistan", flag: "https://flagcdn.com/af.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
         date: "2025-02-27",
         time: "16:00",
         venue: "Colombo",
@@ -70,19 +120,39 @@ const UpcomingCricket = () => {
       },
       {
         id: "6",
-        team1: { code: "AUS", name: "Australia" },
-        team2: { code: "IND", name: "India" },
+        team1: {
+          code: "AUS", name: "Australia", flag: "https://flagcdn.com/au.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
+        team2: {
+          code: "IND", name: "India", flag: "https://flagcdn.com/in.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
         date: "2025-02-28",
         time: "13:30",
         venue: "Sydney Cricket Ground",
         tournament: "Border-Gavaskar Trophy",
         format: "Test",
-        isPlayingXIAnnounced: false,
+        isPlayingXIAnnounced: true,
       },
       {
         id: "7",
-        team1: { code: "SA", name: "South Africa" },
-        team2: { code: "NZ", name: "New Zealand" },
+        team1: {
+          code: "SA", name: "South Africa", flag: "https://flagcdn.com/za.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
+        team2: {
+          code: "NZ", name: "New Zealand", flag: "https://flagcdn.com/nz.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
         date: "2025-03-01",
         time: "14:30",
         venue: "Cape Town",
@@ -92,8 +162,18 @@ const UpcomingCricket = () => {
       },
       {
         id: "8",
-        team1: { code: "ENG", name: "England" },
-        team2: { code: "WI", name: "West Indies" },
+        team1: {
+          code: "ENG", name: "England", flag: "https://flagcdn.com/gb-eng.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
+        team2: {
+          code: "WI", name: "West Indies", flag: "https://flagcdn.com/tt.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
         date: "2025-03-02",
         time: "12:00",
         venue: "Lord's, London",
@@ -103,8 +183,18 @@ const UpcomingCricket = () => {
       },
       {
         id: "9",
-        team1: { code: "PAK", name: "Pakistan" },
-        team2: { code: "AUS", name: "Australia" },
+        team1: {
+          code: "PAK", name: "Pakistan", flag: "https://flagcdn.com/pk.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
+        team2: {
+          code: "AUS", name: "Australia", flag: "https://flagcdn.com/au.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
         date: "2025-03-03",
         time: "18:00",
         venue: "Karachi",
@@ -114,8 +204,18 @@ const UpcomingCricket = () => {
       },
       {
         id: "10",
-        team1: { code: "BAN", name: "Bangladesh" },
-        team2: { code: "SL", name: "Sri Lanka" },
+        team1: {
+          code: "BAN", name: "Bangladesh", flag: "https://flagcdn.com/bd.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
+        team2: {
+          code: "SL", name: "Sri Lanka", flag: "https://flagcdn.com/lk.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
         date: "2025-03-04",
         time: "15:00",
         venue: "Chattogram",
@@ -125,30 +225,64 @@ const UpcomingCricket = () => {
       },
       {
         id: "11",
-        team1: { code: "IND", name: "India" },
-        team2: { code: "PAK", name: "Pakistan" },
+        team1: {
+          code: "ENG", name: "England", flag: "https://flagcdn.com/gb-eng.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
+        team2: {
+          code: "IND", name: "India", flag: "https://flagcdn.com/in.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
         date: "2025-03-05",
-        time: "14:30",
-        venue: "Eden Gardens, Kolkata",
-        tournament: "Asia Cup",
-        format: "One day",
+        time: "14:00",
+        venue: "Edgbaston, Birmingham",
+        tournament: "Test Series",
+        format: "Test",
         isPlayingXIAnnounced: false,
       },
       {
         id: "12",
-        team1: { code: "AUS", name: "Australia" },
-        team2: { code: "SA", name: "South Africa" },
+        team1: {
+          code: "NZ", name: "New Zealand", flag: "https://flagcdn.com/nz.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
+        team2: {
+          code: "WI", name: "West Indies", flag: "https://flagcdn.com/tt.svg",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
         date: "2025-03-06",
-        time: "16:30",
-        venue: "Brisbane",
-        tournament: "ODI Series",
-        format: "One day",
+        time: "12:00",
+        venue: "Wellington",
+        tournament: "T20 Series",
+        format: "T20",
         isPlayingXIAnnounced: false,
       },
       {
         id: "13",
-        team1: { code: "ENG", name: "England" },
-        team2: { code: "NZ", name: "New Zealand" },
+        team1: {
+          code: "ENG",
+          name: "England",
+          flag: "https://flagcdn.com/w320/gb.png",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
+        team2: {
+          code: "NZ",
+          name: "New Zealand",
+          flag: "https://flagcdn.com/w320/nz.png",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
         date: "2025-03-07",
         time: "10:00",
         venue: "Wellington",
@@ -158,8 +292,22 @@ const UpcomingCricket = () => {
       },
       {
         id: "14",
-        team1: { code: "WI", name: "West Indies" },
-        team2: { code: "AFG", name: "Afghanistan" },
+        team1: {
+          code: "WI",
+          name: "West Indies",
+          flag: "https://flagcdn.com/w320/tt.png",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
+        team2: {
+          code: "AFG",
+          name: "Afghanistan",
+          flag: "https://flagcdn.com/w320/af.png",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
         date: "2025-03-08",
         time: "12:30",
         venue: "Barbados",
@@ -169,8 +317,22 @@ const UpcomingCricket = () => {
       },
       {
         id: "15",
-        team1: { code: "SL", name: "Sri Lanka" },
-        team2: { code: "PAK", name: "Pakistan" },
+        team1: {
+          code: "SL",
+          name: "Sri Lanka",
+          flag: "https://flagcdn.com/w320/lk.png",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
+        team2: {
+          code: "PAK",
+          name: "Pakistan",
+          flag: "https://flagcdn.com/w320/pk.png",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
         date: "2025-03-09",
         time: "14:00",
         venue: "Colombo",
@@ -180,8 +342,22 @@ const UpcomingCricket = () => {
       },
       {
         id: "16",
-        team1: { code: "IND", name: "India" },
-        team2: { code: "WI", name: "West Indies" },
+        team1: {
+          code: "IND",
+          name: "India",
+          flag: "https://flagcdn.com/w320/in.png",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
+        team2: {
+          code: "WI",
+          name: "West Indies",
+          flag: "https://flagcdn.com/w320/tt.png",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
         date: "2025-03-10",
         time: "18:00",
         venue: "Chennai",
@@ -191,8 +367,22 @@ const UpcomingCricket = () => {
       },
       {
         id: "17",
-        team1: { code: "AUS", name: "Australia" },
-        team2: { code: "BAN", name: "Bangladesh" },
+        team1: {
+          code: "AUS",
+          name: "Australia",
+          flag: "https://flagcdn.com/w320/au.png",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
+        team2: {
+          code: "BAN",
+          name: "Bangladesh",
+          flag: "https://flagcdn.com/w320/bd.png",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
         date: "2025-03-11",
         time: "14:00",
         venue: "Adelaide",
@@ -202,8 +392,22 @@ const UpcomingCricket = () => {
       },
       {
         id: "18",
-        team1: { code: "ENG", name: "England" },
-        team2: { code: "SL", name: "Sri Lanka" },
+        team1: {
+          code: "ENG",
+          name: "England",
+          flag: "https://flagcdn.com/w320/gb.png",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
+        team2: {
+          code: "SL",
+          name: "Sri Lanka",
+          flag: "https://flagcdn.com/w320/lk.png",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
         date: "2025-03-12",
         time: "16:30",
         venue: "The Oval, London",
@@ -213,8 +417,22 @@ const UpcomingCricket = () => {
       },
       {
         id: "19",
-        team1: { code: "PAK", name: "Pakistan" },
-        team2: { code: "AFG", name: "Afghanistan" },
+        team1: {
+          code: "PAK",
+          name: "Pakistan",
+          flag: "https://flagcdn.com/w320/pk.png",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
+        team2: {
+          code: "AFG",
+          name: "Afghanistan",
+          flag: "https://flagcdn.com/w320/af.png",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
         date: "2025-03-13",
         time: "17:00",
         venue: "Lahore",
@@ -224,8 +442,22 @@ const UpcomingCricket = () => {
       },
       {
         id: "20",
-        team1: { code: "NZ", name: "New Zealand" },
-        team2: { code: "SA", name: "South Africa" },
+        team1: {
+          code: "NZ",
+          name: "New Zealand",
+          flag: "https://flagcdn.com/w320/nz.png",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
+        team2: {
+          code: "SA",
+          name: "South Africa",
+          flag: "https://flagcdn.com/w320/za.png",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          }
+        },
         date: "2025-03-14",
         time: "12:30",
         venue: "Auckland",
@@ -235,8 +467,20 @@ const UpcomingCricket = () => {
       },
       {
         id: "21",
-        team1: { code: "IND", name: "India" },
-        team2: { code: "ENG", name: "England" },
+        team1: {
+          code: "IND",
+          name: "India",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          },
+        },
+        team2: {
+          code: "ENG",
+          name: "England",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          },
+        },
         date: "2025-03-15",
         time: "14:30",
         venue: "Delhi",
@@ -246,8 +490,20 @@ const UpcomingCricket = () => {
       },
       {
         id: "22",
-        team1: { code: "AUS", name: "Australia" },
-        team2: { code: "PAK", name: "Pakistan" },
+        team1: {
+          code: "AUS",
+          name: "Australia",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          },
+        },
+        team2: {
+          code: "PAK",
+          name: "Pakistan",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          },
+        },
         date: "2025-03-16",
         time: "10:00",
         venue: "Perth",
@@ -257,8 +513,20 @@ const UpcomingCricket = () => {
       },
       {
         id: "23",
-        team1: { code: "SA", name: "South Africa" },
-        team2: { code: "BAN", name: "Bangladesh" },
+        team1: {
+          code: "SA",
+          name: "South Africa",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          },
+        },
+        team2: {
+          code: "BAN",
+          name: "Bangladesh",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          },
+        },
         date: "2025-03-17",
         time: "14:00",
         venue: "Durban",
@@ -268,8 +536,20 @@ const UpcomingCricket = () => {
       },
       {
         id: "24",
-        team1: { code: "WI", name: "West Indies" },
-        team2: { code: "NZ", name: "New Zealand" },
+        team1: {
+          code: "WI",
+          name: "West Indies",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          },
+        },
+        team2: {
+          code: "NZ",
+          name: "New Zealand",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          },
+        },
         date: "2025-03-18",
         time: "18:30",
         venue: "Kingston",
@@ -279,8 +559,20 @@ const UpcomingCricket = () => {
       },
       {
         id: "25",
-        team1: { code: "SL", name: "Sri Lanka" },
-        team2: { code: "IND", name: "India" },
+        team1: {
+          code: "SL",
+          name: "Sri Lanka",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          },
+        },
+        team2: {
+          code: "IND",
+          name: "India",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          },
+        },
         date: "2025-03-19",
         time: "12:00",
         venue: "Galle",
@@ -290,8 +582,20 @@ const UpcomingCricket = () => {
       },
       {
         id: "26",
-        team1: { code: "ENG", name: "England" },
-        team2: { code: "AUS", name: "Australia" },
+        team1: {
+          code: "ENG",
+          name: "England",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          },
+        },
+        team2: {
+          code: "AUS",
+          name: "Australia",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          },
+        },
         date: "2025-03-20",
         time: "14:00",
         venue: "Lord's, London",
@@ -301,8 +605,20 @@ const UpcomingCricket = () => {
       },
       {
         id: "27",
-        team1: { code: "PAK", name: "Pakistan" },
-        team2: { code: "BAN", name: "Bangladesh" },
+        team1: {
+          code: "PAK",
+          name: "Pakistan",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          },
+        },
+        team2: {
+          code: "BAN",
+          name: "Bangladesh",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          },
+        },
         date: "2025-03-21",
         time: "15:30",
         venue: "Multan",
@@ -312,8 +628,20 @@ const UpcomingCricket = () => {
       },
       {
         id: "28",
-        team1: { code: "NZ", name: "New Zealand" },
-        team2: { code: "AFG", name: "Afghanistan" },
+        team1: {
+          code: "NZ",
+          name: "New Zealand",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          },
+        },
+        team2: {
+          code: "AFG",
+          name: "Afghanistan",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          },
+        },
         date: "2025-03-22",
         time: "12:00",
         venue: "Wellington",
@@ -323,8 +651,20 @@ const UpcomingCricket = () => {
       },
       {
         id: "29",
-        team1: { code: "SA", name: "South Africa" },
-        team2: { code: "WI", name: "West Indies" },
+        team1: {
+          code: "SA",
+          name: "South Africa",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          },
+        },
+        team2: {
+          code: "WI",
+          name: "West Indies",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          },
+        },
         date: "2025-03-23",
         time: "14:30",
         venue: "Johannesburg",
@@ -334,8 +674,20 @@ const UpcomingCricket = () => {
       },
       {
         id: "30",
-        team1: { code: "IND", name: "India" },
-        team2: { code: "NZ", name: "New Zealand" },
+        team1: {
+          code: "IND",
+          name: "India",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          },
+        },
+        team2: {
+          code: "NZ",
+          name: "New Zealand",
+          toLowerCase: function (): unknown {
+            throw new Error("Function not implemented.");
+          },
+        },
         date: "2025-03-24",
         time: "16:00",
         venue: "Ahmedabad",
@@ -422,12 +774,12 @@ const UpcomingCricket = () => {
               key={match.id}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden flex"
+              className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden flex "
             >
               {/* Main content (3 parts) */}
               <div className="w-3/4 p-6">
                 <div className="flex items-center justify-between mb-4">
-                  <div className="flex items-center space-x-4">
+                  {/* <div className="flex items-center space-x-4">
                     <span className="text-sm text-gray-500 dark:text-gray-400">
                       {format(
                         parse(match.date, "yyyy-MM-dd", new Date()),
@@ -437,27 +789,50 @@ const UpcomingCricket = () => {
                     <span className="text-sm text-gray-500 dark:text-gray-400">
                       {match.time}
                     </span>
-                  </div>
-                  {!match.isPlayingXIAnnounced && (
-                    <span className="pl-3 ml-3 pr-3 py-1 bg-yellow-50 dark:bg-yellow-700 text-white text-xs rounded-full">
-                      Playing XI not announced
-                    </span>
-                  )}
+                  </div> */}
+                  <span
+                    className="pl-3 ml-3 pr-3 py-1 text-xs rounded-full 
+                      bg-yellow-400 dark:bg-yellow-50 text-white dark:text-white"
+                  >
+                    {match.isPlayingXIAnnounced
+                      ? "LINEUP OUT"
+                      : "Playing XI not announced"}
+                  </span>
                 </div>
 
-                <div className="flex items-center justify-between mb-6">
+                <div className="flex items-center justify-center mb-6">
                   <div className="flex items-center space-x-4">
+                    <img
+                      src={match.team1.flag}
+                      alt={match.team1.code}
+                      className="w-10 h-10 rounded-full"
+                    />
                     <div className="text-2xl font-bold text-gray-900 dark:text-white">
                       {match.team1.code}
                     </div>
-                    <span className="text-gray-400">vs</span>
+                    <div className="flex items-center space-x-4">
+                      <span className="text-sm text-gray-500 dark:text-gray-400">
+                        {format(
+                          parse(match.date, "yyyy-MM-dd", new Date()),
+                          "dd MMM"
+                        )}
+                      </span>
+                      <span className="text-sm text-gray-500 dark:text-gray-400">
+                        {match.time}
+                      </span>
+                    </div>
                     <div className="text-2xl font-bold text-gray-900 dark:text-white">
                       {match.team2.code}
                     </div>
+                    <img
+                      src={match.team2.flag}
+                      alt={match.team2.code}
+                      className="w-10 h-10 rounded-full"
+                    />
                   </div>
                 </div>
 
-                <div className="flex flex-col space-y-2 text-sm text-gray-500 dark:text-gray-400">
+                <div className="flex flex-col md:flex-row md:items-center justify-center md:space-x-6 space-y-2 md:space-y-0 text-sm text-gray-500 dark:text-gray-400">
                   <div className="flex items-center space-x-2">
                     <Trophy className="w-4 h-4" />
                     <span>{match.tournament}</span>
@@ -469,13 +844,13 @@ const UpcomingCricket = () => {
                 </div>
 
                 <div className="mt-6 flex flex-col sm:flex-row gap-4">
-                  <button className="flex-1 px-4 py-2 bg-yellow-400 text-white rounded-lg hover:bg-yellow-500 transition-colors">
+                  <button className="flex-1 px-4 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-300 transition-colors">
                     Match Prediction
                   </button>
                   <button className="flex-1 px-4 py-2 bg-green-400 text-white rounded-lg hover:bg-green-500 transition-colors">
                     Generate Lineups
                   </button>
-                  <button className="flex-1 px-4 py-2 bg-green-100 text-gray-800 rounded-lg hover:bg-green-200 transition-colors">
+                  <button className="flex-1 px-4 py-2 bg-green-100 text-gray-900 rounded-lg hover:bg-primary-300 transition-colors">
                     Score Prediction
                   </button>
                 </div>
