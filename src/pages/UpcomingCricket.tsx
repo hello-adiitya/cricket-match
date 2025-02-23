@@ -36,7 +36,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '1',
+        id: '3',
         team1: { code: 'PAK', name: 'Pakistan' },
         team2: { code: 'IND', name: 'India' },
         date: '2025-02-23',
@@ -47,7 +47,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '2',
+        id: '3',
         team1: { code: 'TTN', name: 'Titans' },
         team2: { code: 'DOL', name: 'Dolphins' },
         date: '2025-02-23',
@@ -58,7 +58,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '1',
+        id: '4',
         team1: { code: 'PAK', name: 'Pakistan' },
         team2: { code: 'IND', name: 'India' },
         date: '2025-02-23',
@@ -69,7 +69,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '2',
+        id: '5',
         team1: { code: 'TTN', name: 'Titans' },
         team2: { code: 'DOL', name: 'Dolphins' },
         date: '2025-02-23',
@@ -80,7 +80,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '1',
+        id: '6',
         team1: { code: 'PAK', name: 'Pakistan' },
         team2: { code: 'IND', name: 'India' },
         date: '2025-02-23',
@@ -91,7 +91,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '2',
+        id: '7',
         team1: { code: 'TTN', name: 'Titans' },
         team2: { code: 'DOL', name: 'Dolphins' },
         date: '2025-02-20',
@@ -102,7 +102,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '1',
+        id: '8',
         team1: { code: 'PAK', name: 'Pakistan' },
         team2: { code: 'IND', name: 'India' },
         date: '2025-02-21',
@@ -113,7 +113,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '2',
+        id: '9',
         team1: { code: 'TTN', name: 'Titans' },
         team2: { code: 'DOL', name: 'Dolphins' },
         date: '2025-02-23',
@@ -124,7 +124,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '1',
+        id: '10',
         team1: { code: 'PAK', name: 'Pakistan' },
         team2: { code: 'IND', name: 'India' },
         date: '2025-02-22',
@@ -135,7 +135,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '2',
+        id: '11',
         team1: { code: 'TTN', name: 'Titans' },
         team2: { code: 'DOL', name: 'Dolphins' },
         date: '2025-02-23',
@@ -146,7 +146,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '1',
+        id: '12',
         team1: { code: 'PAK', name: 'Pakistan' },
         team2: { code: 'IND', name: 'India' },
         date: '2025-02-23',
@@ -157,7 +157,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '2',
+        id: '13',
         team1: { code: 'TTN', name: 'Titans' },
         team2: { code: 'DOL', name: 'Dolphins' },
         date: '2025-02-19',
@@ -168,7 +168,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '1',
+        id: '4',
         team1: { code: 'PAK', name: 'Pakistan' },
         team2: { code: 'IND', name: 'India' },
         date: '2025-02-23',
@@ -179,7 +179,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '2',
+        id: '15',
         team1: { code: 'TTN', name: 'Titans' },
         team2: { code: 'DOL', name: 'Dolphins' },
         date: '2025-02-23',
@@ -190,7 +190,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '1',
+        id: '16',
         team1: { code: 'PAK', name: 'Pakistan' },
         team2: { code: 'IND', name: 'India' },
         date: '2025-02-23',
@@ -201,7 +201,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '2',
+        id: '17',
         team1: { code: 'TTN', name: 'Titans' },
         team2: { code: 'DOL', name: 'Dolphins' },
         date: '2025-02-23',
@@ -212,7 +212,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '1',
+        id: '18',
         team1: { code: 'PAK', name: 'Pakistan' },
         team2: { code: 'IND', name: 'India' },
         date: '2025-02-23',
@@ -223,7 +223,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '2',
+        id: '19',
         team1: { code: 'TTN', name: 'Titans' },
         team2: { code: 'DOL', name: 'Dolphins' },
         date: '2025-02-23',
@@ -234,7 +234,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '1',
+        id: '20',
         team1: { code: 'PAK', name: 'Pakistan' },
         team2: { code: 'IND', name: 'India' },
         date: '2025-02-23',
@@ -245,7 +245,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '2',
+        id: '21',
         team1: { code: 'TTN', name: 'Titans' },
         team2: { code: 'DOL', name: 'Dolphins' },
         date: '2025-02-23',
@@ -256,7 +256,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '1',
+        id: '22',
         team1: { code: 'PAK', name: 'Pakistan' },
         team2: { code: 'IND', name: 'India' },
         date: '2025-02-22',
@@ -267,7 +267,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '2',
+        id: '23',
         team1: { code: 'TTN', name: 'Titans' },
         team2: { code: 'DOL', name: 'Dolphins' },
         date: '2025-02-23',
@@ -278,7 +278,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '1',
+        id: '24',
         team1: { code: 'PAK', name: 'Pakistan' },
         team2: { code: 'IND', name: 'India' },
         date: '2025-02-23',
@@ -289,7 +289,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '2',
+        id: '25',
         team1: { code: 'TTN', name: 'Titans' },
         team2: { code: 'DOL', name: 'Dolphins' },
         date: '2025-02-23',
@@ -300,7 +300,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '1',
+        id: '26',
         team1: { code: 'PAK', name: 'Pakistan' },
         team2: { code: 'IND', name: 'India' },
         date: '2025-02-23',
@@ -311,7 +311,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '2',
+        id: '27',
         team1: { code: 'TTN', name: 'Titans' },
         team2: { code: 'DOL', name: 'Dolphins' },
         date: '2025-02-27',
@@ -322,7 +322,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '1',
+        id: '28',
         team1: { code: 'PAK', name: 'Pakistan' },
         team2: { code: 'IND', name: 'India' },
         date: '2025-02-23',
@@ -333,7 +333,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '2',
+        id: '29',
         team1: { code: 'TTN', name: 'Titans' },
         team2: { code: 'DOL', name: 'Dolphins' },
         date: '2025-02-23',
@@ -344,7 +344,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '1',
+        id: '30',
         team1: { code: 'PAK', name: 'Pakistan' },
         team2: { code: 'IND', name: 'India' },
         date: '2025-02-23',
@@ -355,7 +355,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '2',
+        id: '31',
         team1: { code: 'TTN', name: 'Titans' },
         team2: { code: 'DOL', name: 'Dolphins' },
         date: '2025-02-28',
@@ -366,7 +366,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '1',
+        id: '32',
         team1: { code: 'PAK', name: 'Pakistan' },
         team2: { code: 'IND', name: 'India' },
         date: '2025-02-23',
@@ -377,7 +377,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '2',
+        id: '33',
         team1: { code: 'TTN', name: 'Titans' },
         team2: { code: 'DOL', name: 'Dolphins' },
         date: '2025-02-23',
@@ -388,7 +388,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '1',
+        id: '34',
         team1: { code: 'PAK', name: 'Pakistan' },
         team2: { code: 'IND', name: 'India' },
         date: '2025-02-23',
@@ -399,7 +399,7 @@ const UpcomingCricket = () => {
         isPlayingXIAnnounced: false
       },
       {
-        id: '2',
+        id: '35',
         team1: { code: 'TTN', name: 'Titans' },
         team2: { code: 'DOL', name: 'Dolphins' },
         date: '2025-02-23',
@@ -409,72 +409,72 @@ const UpcomingCricket = () => {
         format: 'One day',
         isPlayingXIAnnounced: false
       },
-      {
-        id: '1',
-        team1: { code: 'PAK', name: 'Pakistan' },
-        team2: { code: 'IND', name: 'India' },
-        date: '2025-02-23',
-        time: '14:30',
-        venue: 'Dubai International Cricket Stadium',
-        tournament: 'Champions Trophy',
-        format: 'One day',
-        isPlayingXIAnnounced: false
-      },
-      {
-        id: '2',
-        team1: { code: 'TTN', name: 'Titans' },
-        team2: { code: 'DOL', name: 'Dolphins' },
-        date: '2025-02-23',
-        time: '13:30',
-        venue: 'SuperSport Park, Centurion',
-        tournament: 'CSA Provincial One-Day Challenge Division One',
-        format: 'One day',
-        isPlayingXIAnnounced: false
-      },
-      {
-        id: '1',
-        team1: { code: 'PAK', name: 'Pakistan' },
-        team2: { code: 'IND', name: 'India' },
-        date: '2025-02-23',
-        time: '14:30',
-        venue: 'Dubai International Cricket Stadium',
-        tournament: 'Champions Trophy',
-        format: 'One day',
-        isPlayingXIAnnounced: false
-      },
-      {
-        id: '2',
-        team1: { code: 'TTN', name: 'Titans' },
-        team2: { code: 'DOL', name: 'Dolphins' },
-        date: '2025-02-23',
-        time: '13:30',
-        venue: 'SuperSport Park, Centurion',
-        tournament: 'CSA Provincial One-Day Challenge Division One',
-        format: 'One day',
-        isPlayingXIAnnounced: false
-      },
-      {
-        id: '1',
-        team1: { code: 'PAK', name: 'Pakistan' },
-        team2: { code: 'IND', name: 'India' },
-        date: '2025-02-23',
-        time: '14:30',
-        venue: 'Dubai International Cricket Stadium',
-        tournament: 'Champions Trophy',
-        format: 'One day',
-        isPlayingXIAnnounced: false
-      },
-      {
-        id: '2',
-        team1: { code: 'TTN', name: 'Titans' },
-        team2: { code: 'DOL', name: 'Dolphins' },
-        date: '2025-02-23',
-        time: '13:30',
-        venue: 'SuperSport Park, Centurion',
-        tournament: 'CSA Provincial One-Day Challenge Division One',
-        format: 'One day',
-        isPlayingXIAnnounced: false
-      },
+      // {
+      //   id: '1',
+      //   team1: { code: 'PAK', name: 'Pakistan' },
+      //   team2: { code: 'IND', name: 'India' },
+      //   date: '2025-02-23',
+      //   time: '14:30',
+      //   venue: 'Dubai International Cricket Stadium',
+      //   tournament: 'Champions Trophy',
+      //   format: 'One day',
+      //   isPlayingXIAnnounced: false
+      // },
+      // {
+      //   id: '2',
+      //   team1: { code: 'TTN', name: 'Titans' },
+      //   team2: { code: 'DOL', name: 'Dolphins' },
+      //   date: '2025-02-23',
+      //   time: '13:30',
+      //   venue: 'SuperSport Park, Centurion',
+      //   tournament: 'CSA Provincial One-Day Challenge Division One',
+      //   format: 'One day',
+      //   isPlayingXIAnnounced: false
+      // },
+      // {
+      //   id: '1',
+      //   team1: { code: 'PAK', name: 'Pakistan' },
+      //   team2: { code: 'IND', name: 'India' },
+      //   date: '2025-02-23',
+      //   time: '14:30',
+      //   venue: 'Dubai International Cricket Stadium',
+      //   tournament: 'Champions Trophy',
+      //   format: 'One day',
+      //   isPlayingXIAnnounced: false
+      // },
+      // {
+      //   id: '2',
+      //   team1: { code: 'TTN', name: 'Titans' },
+      //   team2: { code: 'DOL', name: 'Dolphins' },
+      //   date: '2025-02-23',
+      //   time: '13:30',
+      //   venue: 'SuperSport Park, Centurion',
+      //   tournament: 'CSA Provincial One-Day Challenge Division One',
+      //   format: 'One day',
+      //   isPlayingXIAnnounced: false
+      // },
+      // {
+      //   id: '1',
+      //   team1: { code: 'PAK', name: 'Pakistan' },
+      //   team2: { code: 'IND', name: 'India' },
+      //   date: '2025-02-23',
+      //   time: '14:30',
+      //   venue: 'Dubai International Cricket Stadium',
+      //   tournament: 'Champions Trophy',
+      //   format: 'One day',
+      //   isPlayingXIAnnounced: false
+      // },
+      // {
+      //   id: '2',
+      //   team1: { code: 'TTN', name: 'Titans' },
+      //   team2: { code: 'DOL', name: 'Dolphins' },
+      //   date: '2025-02-23',
+      //   time: '13:30',
+      //   venue: 'SuperSport Park, Centurion',
+      //   tournament: 'CSA Provincial One-Day Challenge Division One',
+      //   format: 'One day',
+      //   isPlayingXIAnnounced: false
+      // },
       
       // Add all other matches here following the same pattern
     ];

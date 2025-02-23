@@ -18,15 +18,15 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 bg-white dark:bg-gray-800 shadow-md z-50 transition-colors duration-200">
-      <nav className="container mx-auto px-4 py-4">
+      <nav className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
-            <img src="/logo.png" alt="logo" className="h-8 w-auto" />
-            <span className="text-2xl font-bold text-gray-900 dark:text-white">PerfectLineup</span>
+            <img src="/logo1.jpg" alt="logo" className="h-8 w-auto" />
+            <span className="text-2xl pr-8 font-bold text-gray-900 dark:text-white">PerfectLineup</span>
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-3">
             {menuItems.map((item) => (
               <Link
                 key={item.label}
@@ -38,14 +38,14 @@ const Header = () => {
                 <item.icon className="h-4 w-4" />
                 <span>{item.label}</span>
                 {item.isNew && (
-                  <span className="ml-1 px-1.5 py-0.5 text-xs bg-primary-500 text-white rounded-full">
+                  <span className="ml-1 px-1.5 text-xs bg-primary-500 text-white rounded-full">
                     New
                   </span>
                 )}
               </Link>
             ))}
             <ThemeToggle />
-            <button className="px-6 py-2 bg-primary-600 text-white rounded-full hover:bg-primary-700 transition-colors">
+            <button className="px-7 px-3 bg-primary-600 text-white rounded-full hover:bg-primary-700 transition-colors">
               Sign Up
             </button>
           </div>
